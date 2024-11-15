@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GearMasters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cabecera con Navegación -->
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo"><i class="fa-solid fa-screwdriver-wrench"></i></a> 
+            <div class="menu">
+                <a href="#inicio"><i class="fas fa-home"></i> Inicio</a>
+                <a href="#galeria"><i class="fas fa-images"></i> Galería</a>
+                <a href="#mapa"><i class="fas fa-map-marker-alt"></i> Mapa</a>
+                <a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Sección Video de Fondo -->
+    <section id="inicio" class="hero-section">
+        <img src="IMAGE/pexels-padrinan-16679588.jpg" alt="Imagen de fondo" class="background-image">
+        <div class="overlay">
+            <h1>GearMasters Garage</h1>
+            <button onclick="window.location='#galeria'">Ingresar a mi pagina</button>
+        </div>
+    </section>
+    
+    >
+
+    <!-- Sección de Contacto -->
+<section id="contacto" class="contact-section">
+    <h2>Contacto</h2>
+    <p>Puedes comunicarte con nosotros completando el formulario o a través de nuestras redes sociales.</p>
+    <div class="contact-grid">
+        <img src="IMAGE/img contacto.jpg" alt="Imagen de contacto" class="contact-image">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+
+
+    <!-- Sección Galería -->
+<section id="galeria" class="gallery-section">
+    <h2>Galería</h2>
+    <p>Mira los servicios que gestionamos para tu vehiculo.</p>
+    <div class="gallery-grid">
+        
+        <div class="gallery-item">
+            <img src="IMAGE/img1.jpg" alt="Imagen 1">
+            <p>Reparación del sistema de frenos</p>
+        </div>
+        <div class="gallery-item">
+            <img src="IMAGE/img2.jpg" alt="Imagen 2">
+            <p>Trabajos de carrocería</p>
+        </div>
+        <div class="gallery-item">
+            <img src="IMAGE/img3.jpg" alt="Imagen 3">
+            <p>Preparación para inspecciones técnicas</p>
+        </div>
+        <div class="gallery-item">
+            <img src="IMAGE/img4.jpg" alt="Imagen 4">
+            <p>Diagnóstico y solución de problemas</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="IMAGE/img5.jpg" alt="Imagen 5">
+            <p>Reparación de sistemas de refrigeración</p>
+        </div>
+        <div class="gallery-item">
+            <img src="IMAGE/img6.jpg" alt="Imagen 6">
+            <p>Reparaciones de emergencia</p>
+        </div>
+    </div>
+</section>
+
+
+
+   <!-- Sección Mapa -->
+<section id="mapa" class="map-section">
+    <h2>Ubicación</h2>
+    <p>Estamos cerca a tu emergencia</p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8060719536284!2d-77.02741122579198!3d-12.125417443368404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses!2spe!4v1731677981701!5m2!1ses!2spe" 
+        class="map-frame" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-item">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-item">
+            <p>Ramirez Iñape, Christian Joel</p>
+        </div>
+        <div class="footer-item">
+            <p>Teléfono Fijo: 644-2313</p>
+            <p>Teléfono Móvil: 915-051-057</p>
+        </div>
+        <div class="footer-item">
+            <p>Instituto San Ignacio de Loyola</p>
+            <p>Miraflores, Lima Metropolitana</p>
+        </div>
+        <div class="footer-item">
+            <p>Carrera: Diseño Web</p>
+            <p>Año: 2024</p>
+        </div>
+        <div class="footer-item">
+            <p>Docente: Inga, Roberto.</p>
+        </div>
+    </div>
+</footer>
+
